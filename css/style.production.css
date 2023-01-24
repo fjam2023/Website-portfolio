@@ -9,11 +9,12 @@
 }  
 
 body {
-    background-color: rgba(182,202,214,0.826);
+    background-color: #403f45;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 1;
+    color: #e0b354;
     }
     
 h1 {
@@ -28,7 +29,7 @@ footer{
     }
 
 a {
-    color: #357b70;
+    color: black;
     }
 
 a:hover {
@@ -37,11 +38,11 @@ a:hover {
     }
 a:visited {
     /* visited link */
-    color: blue;
+    color: whitesmoke;
     }      
 a:active {
     /* selected link */
-    color: #489c79;
+    color: #e0b354;
     }
 
 button:hover{
@@ -144,7 +145,7 @@ button:focus{
     } 
 
 .grid__item {
-    background-color:white;
+    background-color: grey;
     padding: 40px;
     }
 
