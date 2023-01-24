@@ -9,7 +9,7 @@
 }  
 
 body {
-    background-color: rgba(182,202,214,0.826);
+    background-color: rgba(15, 19, 21, 0.826);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -21,7 +21,12 @@ h1 {
     font-size: 30px;
     font-weight: 400;
     text-decoration: none;
-    }
+    margin: 1em auto;
+    text-align: center;
+     }
+
+
+
 
 footer{
     font-family: 'Helvetica', sans-serif;
@@ -70,13 +75,6 @@ button:focus{
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     }
    
-.profile__portrait {
-    float: left;
-    width: 250px;
-    margin-right: 40px;
-    border-radius: 50%;
-    }
-    
 .page-footer {
     clear: both;
     display:-webkit-box;
@@ -89,6 +87,13 @@ button:focus{
     text-align: center;
     }
 
+    .profile__portrait {
+      float: left;
+      width: 80%;
+      margin-right: 40px;
+      border-radius: 50%;
+      }
+      
 
 .profile {
     max-width: 700px;
@@ -105,8 +110,8 @@ button:focus{
      
 .page-header{
     width: 100%;
-    padding: 20px;
-    }
+    float: left;
+   }
 
 .page-header__item{
     -webkit-box-flex: 0;
